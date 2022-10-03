@@ -1,0 +1,78 @@
+.form {
+  min-width: 30vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.form input {
+  border: 1px solid rgba(0, 0, 0, 0.219);
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.form select {
+  border: 1px solid rgba(0, 0, 0, 0.219);
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.fields {
+  width: 90%;
+  margin-top: 15px;
+}
+
+.form input[type="checkbox"] {
+  width: 44px;
+  height: 23px;
+  appearance: none;
+  background-color: var(--light-gray-color);
+  border-radius: 50px;
+  box-shadow: inset 0px 0px 16px 1px rgba(0,0,0, 0.24);
+  cursor: pointer;
+  transition: .4s;
+  position: relative;
+}
+
+.form input:checked[type="checkbox"]{
+  background-color: var(--primary-color);
+}
+
+.form input[type='checkbox']:before {
+  content: '';
+  width: 20px;
+  height: 18px;
+  background-color: var(--light-gray-color);
+  border-radius: 50%;
+  position:absolute ;
+  box-shadow: 0px 4px  8px 1px rgba(0, 0, 0, 0.25);
+  transform: scale(1.1);
+  top: 0;
+  left: 0;
+  transition: .4s;
+}
+
+.form input:checked[type='checkbox']:before {
+  left: 20px;
+}
+
+.btnNewUser {
+    background: var(--gradient-color);
+    border-radius: 5px;
+    color: var(--white-color);
+    cursor: pointer;
+    font-weight: 800;
+    height: 40px;
+    width: 90%;
+    display: block;
+    margin-top: 20px;
+}
+.errors {
+  color: red;
+}

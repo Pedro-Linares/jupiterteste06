@@ -1,0 +1,53 @@
+.modalNewCandidate {
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.507);
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 100vw;
+  height: 100vh;
+  top:0;
+  right: 0;
+}
+
+.container{
+  background-color: var(--white-color);
+  color: var(--black-color);
+  border-radius: 8px; 
+}
+
+.modal h2{
+  text-align: center;
+}
+
+.close{
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 32px;
+  height: 32px;
+  right: calc(-100% + 55px);
+  top: 10px;
+  cursor: pointer;
+}
+.close:before,
+.close:after {
+  content: ' ';
+  position: absolute;
+  width: 18px;
+  height: 3px;
+  background-color: var(--black-color);
+}
+
+.close:before {
+  transform: rotate(45deg);
+}
+
+.close::after {
+  transform: rotate(-45deg);
+}

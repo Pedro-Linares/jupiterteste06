@@ -1,0 +1,97 @@
+.containerMain {
+  align-items: center;
+  background: var(--gradient-color);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.containerleft {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 50vw;
+}
+
+.svg {
+  margin: 1.75rem;
+}
+
+.containerRight {
+  align-items: center;
+  background: var(--white-color);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 50vw;
+}
+
+.cardForm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  justify-content: center;
+  max-width: 350px;
+  text-align: center;
+  min-width: 350px;
+}
+
+.cardForm h1 {
+  font-size: 1.1rem;
+}
+
+.textField {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 0;
+  position: relative;
+  width: 100%;
+}
+
+.textField input {
+  border: solid 1px var(--gray-color);
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 40px;
+  margin-top: 5px;
+  padding-left: 8px;
+  width: 100%;
+}
+
+.btn {
+  background: var(--gradient-color);
+  border-radius: 8px;
+  color: var(--white-color);
+  cursor: pointer;
+  font-weight: bold;
+  height: 50px;
+  margin: 15px 0px ; 
+  min-width: 100%;
+}
+
+@media screen and (max-width: 759px) {
+  body {
+    background: var(--white-color);
+  }
+  .containerMain {
+    flex-direction: column;
+  }
+  .containerleft {
+    display: none;
+  }
+  .containerRight {
+    background: var(--white-color);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  .cardForm {
+    width: 100%;
+    padding: 30px;
+  }
+}

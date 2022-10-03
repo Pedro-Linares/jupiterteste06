@@ -1,0 +1,78 @@
+.mainCandidates{
+  display: flex;
+}
+
+.subContainer {
+  margin: 0 auto;
+  width: clamp(675px,80%,1200px);
+}
+
+.searchBox {
+  width: 100%;
+}
+
+.searchBox input {
+  margin-top: 10px;
+  width: 98%;
+  border: 1px solid var(--gray-color);
+  border-radius: 5px;
+  height: 30px;
+  padding: 4px 8px;
+}
+
+.table {
+  height: 60vh;
+}
+
+table{
+  border-collapse: collapse;
+  margin: 30px auto;
+  width: 100%;
+}
+
+thead {
+  background-color: var(--white-color);
+  font-weight: bolder;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.233);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+th {
+  text-align: left;
+}
+
+th, td {
+  border-bottom: solid 1px var(--light-gray-color);
+  padding: 16px 12px;
+  font-weight: 500;
+}
+
+.container-text {
+  border-radius: 3px;
+  box-shadow: 0px 1px 5px 0px rgb(0, 0, 0, 0.445);
+  box-sizing: border-box;
+  margin: 60px auto;
+  padding: 10px;
+  text-align: justify;
+  width: 90%;
+}
+
+.container-text p {
+  margin-top: 10px;
+}
+
+.active {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 255, 0, 0.603);
+  color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+}
+
+.inative {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 17, 0, 0.562);
+  color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+}

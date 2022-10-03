@@ -1,0 +1,73 @@
+.card {
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  width: 95%;
+  max-width: 195px;
+  min-height: 130px;
+  margin: 4px auto;
+  border-left: 4px solid var(--primary-color);
+  border-radius: 8px;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 12px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card h4 {
+  color: var(--black-color);
+}
+
+.priorityUrgent {
+  background: #C53939;
+  border-radius: 8px;
+  bottom: 0;
+  color: var(--white-color);
+  height: 24px;
+  position: absolute;
+  margin: 20px 10px;
+  right: 0;
+  text-align: center;
+  width: 74px;
+}
+.priority {
+  background: #39C59B;
+  border-radius: 8px;
+  bottom: 0;
+  color: var(--white-color);
+  height: 24px;
+  position: absolute;
+  margin: 20px 10px;
+  right: 0;
+  text-align: center;
+  width: 74px;
+}
+.priority p {
+  padding: 3px;
+}
+.priorityUrgent p {
+  padding: 3px;
+}
+
+.avatar {
+  display: flex;
+  background-color: #00000033;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  bottom: 0;
+  font-weight: bold;
+  left: 0;
+  margin: 8px 8px;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.positionDetails{ 
+  width: 80vw;
+  height: 50vh;
+  background-color: var(--white-color);
+  z-index: 15;
+
+}

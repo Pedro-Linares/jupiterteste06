@@ -1,0 +1,29 @@
+.aside {
+  background-color: var(--primary-color);
+  min-width: 4.25rem;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  margin: 2.5rem 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.logOut {
+  position: absolute;
+  bottom: -1%;
+  left: .95%;
+}
+
+.logoJupiter {
+  position: absolute;
+  top: -1%;
+}
